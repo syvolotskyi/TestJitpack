@@ -10,8 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginVertical="@dimen/dimen_p_16"
-        android:layout_marginHorizontal="@dimen/dimen_p_8"
+        android:layout_marginVertical="@dimen/ui_dimen_p_16"
+        android:layout_marginHorizontal="@dimen/ui_dimen_p_8"
         android:orientation="vertical">
 
         <ge.space.ui.components.layout.SPFrameLayout

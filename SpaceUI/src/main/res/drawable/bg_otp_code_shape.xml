@@ -2,25 +2,25 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_active="true">
         <shape>
-            <stroke android:width="@dimen/dimen_p_1" android:color="?attr/accent_magenta" />
+            <stroke android:width="@dimen/ui_dimen_p_1" android:color="?attr/accent_magenta" />
             <solid android:color="?attr/static_white" />
-            <corners android:radius="@dimen/dimen_p_10" />
+            <corners android:radius="@dimen/ui_dimen_p_10" />
         </shape>
     </item>
     <item android:state_enabled="false">
         <shape>
-            <stroke android:width="@dimen/dimen_p_1" android:color="#C0C0C0" />
+            <stroke android:width="@dimen/ui_dimen_p_1" android:color="#C0C0C0" />
             <solid android:color="?attr/static_white" />
-            <corners android:radius="@dimen/dimen_p_10" />
+            <corners android:radius="@dimen/ui_dimen_p_10" />
         </shape>
     </item>
 
     <item android:state_enabled="true">
         <shape>
-            <stroke android:width="@dimen/dimen_p_1"
+            <stroke android:width="@dimen/ui_dimen_p_1"
                 android:color="?attr/brand_primary" />
             <solid android:color="?attr/static_white" />
-            <corners android:radius="@dimen/dimen_p_10" />
+            <corners android:radius="@dimen/ui_dimen_p_10" />
         </shape>
     </item>
 

@@ -62,7 +62,7 @@ class SPTextAreaView @JvmOverloads constructor(
         counterView = (SPViewData.SPTextData(
             params = SPViewData.SPViewDataParams(
                 gravity = Gravity.END or Gravity.CENTER_VERTICAL,
-                paddingBottom = resources.getDimensionPixelSize(R.dimen.dimen_p_4),
+                paddingBottom = resources.getDimensionPixelSize(R.dimen.ui_dimen_p_4),
             )
         ).createView(context) as TextView).apply {
             setText(
@@ -81,7 +81,7 @@ class SPTextAreaView @JvmOverloads constructor(
     private fun createScrollView() = ScrollView(context).apply {
         // Configure scrollview
         layoutParams = LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT, 1.0f)
-        setFadingEdgeLength(resources.getDimensionPixelSize(R.dimen.dimen_p_60))
+        setFadingEdgeLength(resources.getDimensionPixelSize(R.dimen.ui_dimen_p_60))
         isVerticalFadingEdgeEnabled = true
         isVerticalScrollBarEnabled = false
         overScrollMode = OVER_SCROLL_NEVER
@@ -123,8 +123,8 @@ class SPTextAreaView @JvmOverloads constructor(
                     or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD,
             params = SPViewData.SPViewDataParams(
                 gravity = Gravity.START or Gravity.TOP,
-                paddingTop = resources.getDimensionPixelSize(R.dimen.dimen_p_12),
-                paddingBottom = resources.getDimensionPixelSize(R.dimen.dimen_p_12),
+                paddingTop = resources.getDimensionPixelSize(R.dimen.ui_dimen_p_12),
+                paddingBottom = resources.getDimensionPixelSize(R.dimen.ui_dimen_p_12),
             )
         )
 

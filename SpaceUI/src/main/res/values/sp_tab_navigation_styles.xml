@@ -10,7 +10,7 @@
     </style>
 
     <style name="SPTabNavigation.RoundedView" parent="SPBaseView">
-        <item name="roundedCorners">@dimen/dimen_p_10</item>
+        <item name="roundedCorners">@dimen/ui_dimen_p_10</item>
         <item name="shadowRadius">0dp</item>
     </style>
 

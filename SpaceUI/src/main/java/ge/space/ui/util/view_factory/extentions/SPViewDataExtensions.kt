@@ -18,9 +18,9 @@ fun getCurrencyViewData(
     SPViewData.SPTextData(
         initials, textStyle,
         params = SPViewData.SPViewDataParams(
-            paddingBottom = context.resources.getDimensionPixelSize(R.dimen.dimen_p_1),
-            paddingStart = context.resources.getDimensionPixelSize(R.dimen.dimen_p_16),
-            paddingEnd = context.resources.getDimensionPixelSize(R.dimen.dimen_p_16)
+            paddingBottom = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1),
+            paddingStart = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_16),
+            paddingEnd = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_16)
         )
     )
 

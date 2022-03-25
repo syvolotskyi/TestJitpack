@@ -9,7 +9,7 @@
 
     <style name="SPOtpEntryStyle" parent="SPBaseView">
         <item name="backgroundColor">@android:color/white</item>
-        <item name="roundedCorners">@dimen/dimen_p_12</item>
+        <item name="roundedCorners">@dimen/ui_dimen_p_12</item>
     </style>
 
     <style name="SPPasswordView" parent="SPPinEntryEditText">
@@ -31,13 +31,13 @@
         <item name="backgroundColor">?attr/background_secondary</item>
         <item name="background">?attr/background_secondary</item>
         <item name="labelTextAppearance">@style/h700_medium_caps_label_secondary</item>
-        <item name="roundedCorners">@dimen/dimen_p_12</item>
+        <item name="roundedCorners">@dimen/ui_dimen_p_12</item>
     </style>
 
     <style name="SPInputField" parent="SPBaseView">
         <item name="backgroundColor">?attr/background_tertiary</item>
         <item name="background">?attr/background_tertiary</item>
-        <item name="roundedCorners">@dimen/dimen_p_12</item>
+        <item name="roundedCorners">@dimen/ui_dimen_p_12</item>
     </style>
 
 </resources>

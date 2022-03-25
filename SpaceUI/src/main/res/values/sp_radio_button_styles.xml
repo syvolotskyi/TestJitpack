@@ -19,6 +19,6 @@
     <style name="SPListItemButton.Oval" parent="shadow_empty">
         <item name="isCircle">true</item>
         <item name="borderColor">?attr/separator_opaque</item>
-        <item name="borderWidth">@dimen/dimen_p_0_5</item>
+        <item name="borderWidth">@dimen/ui_dimen_p_0_5</item>
     </style>
 </resources>

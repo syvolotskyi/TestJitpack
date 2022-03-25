@@ -10,7 +10,6 @@ import ge.space.extensions.setSize
 import ge.space.spaceui.R
 import ge.space.ui.base.SPBaseView
 import ge.space.ui.base.SPViewStyling
-import ge.space.ui.components.text_fields.input.base.SPTextFieldInput
 import ge.space.ui.util.extension.getColorFromAttribute
 import ge.space.ui.util.view_factory.SPViewData
 import ge.space.ui.util.view_factory.SPViewFactory.Companion.createView
@@ -136,8 +135,8 @@ class SPMark @JvmOverloads constructor(
 
     private fun handleBorder() {
         if (hasBorder) {
-            val borderSize = resources.getDimensionPixelSize(R.dimen.dimen_p_1)
-            val padding = resources.getDimensionPixelSize(R.dimen.dimen_p_0_5)
+            val borderSize = resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1)
+            val padding = resources.getDimensionPixelSize(R.dimen.ui_dimen_p_0_5)
 
             setPadding(padding, padding, padding, padding)
             changeBorder(

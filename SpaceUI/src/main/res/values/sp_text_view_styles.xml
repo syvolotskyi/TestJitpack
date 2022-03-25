@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="SPTextView.Base" parent="shadow_empty">
-        <item name="android:drawablePadding">@dimen/dimen_p_8</item>
-        <item name="paddingVertical">@dimen/dimen_p_8</item>
-        <item name="paddingHorizontal">@dimen/dimen_p_16</item>
+        <item name="android:drawablePadding">@dimen/ui_dimen_p_8</item>
+        <item name="paddingVertical">@dimen/ui_dimen_p_8</item>
+        <item name="paddingHorizontal">@dimen/ui_dimen_p_16</item>
     </style>
 
     <style name="SPTextView.Success" parent="SPTextView.Base">

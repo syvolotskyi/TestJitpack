@@ -16,19 +16,19 @@
             android:id="@+id/newBrandCreditCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dimen_p_14" />
+            android:layout_marginTop="@dimen/ui_dimen_p_14" />
 
         <ge.space.ui.components.bank_cards.chip.credit_new_card.SPNewCreditCard
             android:id="@+id/newCreditCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dimen_p_14" />
+            android:layout_marginTop="@dimen/ui_dimen_p_14" />
 
         <ge.space.ui.components.bank_cards.chip.credit_new_card.SPNewCreditCard
             android:id="@+id/newCreditCardSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dimen_p_14"
+            android:layout_marginTop="@dimen/ui_dimen_p_14"
             app:creditCardStyle="@style/SPBankCardView.CreditCard.Small" />
 
     </LinearLayout>

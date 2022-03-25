@@ -109,18 +109,18 @@ class SPOtpView @JvmOverloads constructor(
             SPPinState.SUCCESSFUL -> {
                 counter?.onFinish()
                 binding.pinEntryContainer.changeBorder(context.getColorFromAttribute(R.attr.brand_primary),
-                    resources.getDimensionPixelSize(R.dimen.dimen_p_1).toFloat())
+                    resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1).toFloat())
             }
             SPPinState.ERROR -> {
                 showErrorAnimation()
                 context.makeVibration()
                 binding.pinEntryContainer.changeBorder(context.getColorFromAttribute(R.attr.accent_magenta),
-                    resources.getDimensionPixelSize(R.dimen.dimen_p_1).toFloat())
+                    resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1).toFloat())
             }
             else -> {
                 binding.pinEntryContainer.changeBorder(
                     context.getColorFromAttribute(R.attr.brand_primary),
-                    resources.getDimensionPixelSize(R.dimen.dimen_p_1).toFloat()
+                    resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1).toFloat()
                 )
             }
         }
@@ -182,7 +182,7 @@ class SPOtpView @JvmOverloads constructor(
         } else {
             binding.pinEntryContainer.changeBorder(
                 context.getColorFromAttribute(R.attr.colorSecondary),
-                resources.getDimensionPixelSize(R.dimen.dimen_p_1).toFloat()
+                resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1).toFloat()
             )
             binding.buttonDescription.setTextColor(context.getColorFromAttribute(R.attr.label_tertiary))
         }

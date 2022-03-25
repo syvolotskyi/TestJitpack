@@ -8,28 +8,28 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="vertical"
-        android:paddingVertical="@dimen/dimen_p_24"
-        android:paddingHorizontal="@dimen/dimen_p_18">
+        android:paddingVertical="@dimen/ui_dimen_p_24"
+        android:paddingHorizontal="@dimen/ui_dimen_p_18">
 
         <TextView
             android:id="@+id/buttonLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="@dimen/dimen_p_8"
-            android:layout_marginEnd="@dimen/dimen_p_8"
+            android:layout_marginStart="@dimen/ui_dimen_p_8"
+            android:layout_marginEnd="@dimen/ui_dimen_p_8"
             android:gravity="center"
-            android:layout_marginBottom="@dimen/dimen_p_16"
+            android:layout_marginBottom="@dimen/ui_dimen_p_16"
             tools:text="Title" />
 
         <ge.space.ui.components.layout.SPFrameLayout
             android:id="@+id/pinEntryContainer"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/dimen_p_48"
+            android:layout_height="@dimen/ui_dimen_p_48"
             android:layout_gravity="center"
-            android:layout_marginHorizontal="@dimen/dimen_p_16"
+            android:layout_marginHorizontal="@dimen/ui_dimen_p_16"
             style="@style/SPOtpEntryStyle"
-            android:padding="@dimen/dimen_p_8">
+            android:padding="@dimen/ui_dimen_p_8">
 
             <ge.space.ui.components.text_fields.masked.pin.SPOtpEditText
                 android:id="@+id/pinEntryEditText"
@@ -49,9 +49,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="@dimen/dimen_p_8"
-            android:layout_marginEnd="@dimen/dimen_p_8"
-            android:layout_marginTop="@dimen/dimen_p_16"
+            android:layout_marginStart="@dimen/ui_dimen_p_8"
+            android:layout_marginEnd="@dimen/ui_dimen_p_8"
+            android:layout_marginTop="@dimen/ui_dimen_p_16"
             tools:text="Title" />
 
         <TextView
@@ -59,8 +59,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="@dimen/dimen_p_8"
-            android:layout_marginEnd="@dimen/dimen_p_8"
+            android:layout_marginStart="@dimen/ui_dimen_p_8"
+            android:layout_marginEnd="@dimen/ui_dimen_p_8"
             android:ellipsize="end"
             android:maxLines="1"
             tools:text="Title" />

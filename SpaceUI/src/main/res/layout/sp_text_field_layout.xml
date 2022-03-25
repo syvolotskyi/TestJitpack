@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/infoImage"
-        android:layout_width="@dimen/dimen_p_16"
-        android:layout_height="@dimen/dimen_p_16"
+        android:layout_width="@dimen/ui_dimen_p_16"
+        android:layout_height="@dimen/ui_dimen_p_16"
         android:src="@drawable/ic_info_circle_24_regular"
         app:layout_constraintBottom_toBottomOf="@id/textLabel"
         app:layout_constraintEnd_toEndOf="parent"

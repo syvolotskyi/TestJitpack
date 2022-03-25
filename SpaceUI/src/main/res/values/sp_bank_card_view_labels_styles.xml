@@ -31,7 +31,7 @@
     </style>
 
     <style name="h400_medium_bank_card_account_number" parent="@style/h400_medium">
-        <item name="android:textSize">@dimen/dimen_sp_12</item>
+        <item name="android:textSize">@dimen/ui_dimen_sp_12</item>
         <item name="android:textColor">?attr/static_white</item>
     </style>
 </resources>

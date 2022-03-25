@@ -19,7 +19,7 @@
             android:clickable="false"
             android:focusable="false"
             android:gravity="center_vertical"
-            android:paddingHorizontal="@dimen/dimen_p_10"
+            android:paddingHorizontal="@dimen/ui_dimen_p_10"
             tools:text="dollar"/>
 
         <ge.space.ui.components.controls.radio.list_item.SPListItemButton
@@ -30,7 +30,7 @@
             android:clickable="false"
             android:focusable="false"
             android:gravity="center_vertical"
-            android:paddingHorizontal="@dimen/dimen_p_10"
+            android:paddingHorizontal="@dimen/ui_dimen_p_10"
             tools:text="lari"/>
 
         <ge.space.ui.components.controls.radio.list_item.SPListItemButton
@@ -41,7 +41,7 @@
             android:clickable="false"
             android:focusable="false"
             android:gravity="center_vertical"
-            android:paddingHorizontal="@dimen/dimen_p_10"
+            android:paddingHorizontal="@dimen/ui_dimen_p_10"
             tools:text="euro" />
 
     </ge.space.ui.components.controls.radio.SPRadioGroup>

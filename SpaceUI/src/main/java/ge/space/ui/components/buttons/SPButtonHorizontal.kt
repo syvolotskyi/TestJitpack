@@ -141,7 +141,7 @@ class SPButtonHorizontal @JvmOverloads constructor(
 
         val buttonHeight = getResourceId(
             R.styleable.sp_button_view_style_buttonHeight,
-            R.dimen.dimen_p_48
+            R.dimen.ui_dimen_p_48
         )
         binding.buttonContentWrapper.setHeight(resources.getDimensionPixelSize(buttonHeight))
     }

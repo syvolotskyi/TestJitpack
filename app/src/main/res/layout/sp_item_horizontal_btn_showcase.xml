@@ -39,7 +39,7 @@
             android:id="@+id/disableCheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/dimen_p_10"
+            android:layout_marginStart="@dimen/ui_dimen_p_10"
             style="@style/SPCheckbox.DefaultStyle"
             android:text="disable" />
 
@@ -47,7 +47,7 @@
             android:id="@+id/distractiveCheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/dimen_p_10"
+            android:layout_marginStart="@dimen/ui_dimen_p_10"
             style="@style/SPCheckbox.DefaultStyle"
             android:text="distractive" />
 

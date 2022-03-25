@@ -94,7 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dimen_p_32"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="@dimen/dimen_p_16"
+        android:layout_marginBottom="@dimen/ui_dimen_p_16"
         android:text="@string/dialog_label"
         android:hint="@string/dialog_label"
         android:textColor="?attr/themeTextColor"

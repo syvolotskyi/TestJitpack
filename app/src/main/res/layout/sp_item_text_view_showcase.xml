@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="@dimen/dimen_p_12"
+        android:layout_margin="@dimen/ui_dimen_p_12"
         android:text="@string/status_message_success" />
 
 </LinearLayout>

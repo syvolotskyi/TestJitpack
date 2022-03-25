@@ -53,14 +53,14 @@ open class SPTextFieldInput @JvmOverloads constructor(
      * [emptyStartView] is an empty start View
      */
     private val emptyStartView = FrameLayout(context).apply {
-        setPadding(resources.getDimensionPixelSize(R.dimen.dimen_p_8))
+        setPadding(resources.getDimensionPixelSize(R.dimen.ui_dimen_p_8))
     }
 
     /**
      * [emptyEndView] is an empty end View
      */
     private val emptyEndView = FrameLayout(context).apply {
-        setPadding(resources.getDimensionPixelSize(R.dimen.dimen_p_8))
+        setPadding(resources.getDimensionPixelSize(R.dimen.ui_dimen_p_8))
     }
 
     /**
@@ -693,7 +693,7 @@ open class SPTextFieldInput @JvmOverloads constructor(
      * [borderWidth] is a border width of [SPTextFieldInput]
      */
     private var borderWidth: Float =
-        context.resources.getDimensionPixelSize(R.dimen.dimen_p_0_5).toFloat()
+        context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_0_5).toFloat()
 
     companion object {
         private const val ID_NEXT = 5

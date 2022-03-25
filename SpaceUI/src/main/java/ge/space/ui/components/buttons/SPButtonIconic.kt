@@ -29,7 +29,7 @@ open class SPButtonIconic @JvmOverloads constructor(
     private var distractiveBackgroundColor: Int =
         context.getColorFromAttribute(R.attr.accent_magenta)
     private var distractiveIconColor: Int = Color.WHITE
-    private var borderWidth: Int = context.resources.getDimensionPixelSize(R.dimen.dimen_p_1)
+    private var borderWidth: Int = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1)
 
     private var borderColor: Int =
         context.getColorFromAttribute(R.attr.brand_primary)

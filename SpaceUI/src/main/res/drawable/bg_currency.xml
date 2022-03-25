@@ -6,7 +6,7 @@
         android:radius="@dimen/dimen_p_5" />
 
     <stroke
-        android:width="@dimen/dimen_p_0_5"
+        android:width="@dimen/ui_dimen_p_0_5"
         android:color="?attr/separator_non_opaque" />
 
 </shape>

@@ -91,7 +91,7 @@ fun SPTextFieldInput.setupContentInputViewByType(
             type.lines,
             params = type.params ?: SPViewData.SPViewDataParams(
                 gravity = Gravity.START or Gravity.CENTER_VERTICAL,
-                paddingBottom = context.resources.getDimensionPixelSize(R.dimen.dimen_p_1)
+                paddingBottom = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1)
             )
         )
         is SPTextInputViewType.SPMaskViewType -> SPViewData.SPMaskedEditTextData(
@@ -100,7 +100,7 @@ fun SPTextFieldInput.setupContentInputViewByType(
             type.hint,
             SPViewData.SPViewDataParams(
                 gravity = Gravity.START or Gravity.CENTER_VERTICAL,
-                paddingBottom = context.resources.getDimensionPixelSize(R.dimen.dimen_p_1)
+                paddingBottom = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1)
             )
         )
         is SPTextInputViewType.SPNumberViewType -> getNumberEditTextViewData(
@@ -124,15 +124,15 @@ fun SPTextFieldInput.setupEndViewByType(
         is SPEndViewType.SPRemovableViewType -> SPViewData.SPImageResourcesData(
             R.drawable.ic_close_circle_24_filled,
             params = SPViewData.SPViewDataParams(
-                paddingStart = context.resources.getDimensionPixelSize(R.dimen.dimen_p_14),
-                paddingEnd = context.resources.getDimensionPixelSize(R.dimen.dimen_p_16)
+                paddingStart = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_14),
+                paddingEnd = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_16)
             )
         )
         is SPEndViewType.SPImageViewType -> SPViewData.SPImageResourcesData(
             type.icon,
             params = SPViewData.SPViewDataParams(
-                paddingStart = context.resources.getDimensionPixelSize(R.dimen.dimen_p_14),
-                paddingEnd = context.resources.getDimensionPixelSize(R.dimen.dimen_p_16)
+                paddingStart = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_14),
+                paddingEnd = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_16)
             )
         )
     }?.createView(context)
@@ -156,16 +156,16 @@ fun SPTextFieldInput.setupStartViewByType(
             textAppearance,
             params = SPViewData.SPViewDataParams(
                 gravity = Gravity.END or Gravity.CENTER_VERTICAL,
-                paddingStart = context.resources.getDimensionPixelSize(R.dimen.dimen_p_16),
-                paddingEnd = context.resources.getDimensionPixelSize(R.dimen.dimen_p_4),
-                paddingBottom = context.resources.getDimensionPixelSize(R.dimen.dimen_p_1)
+                paddingStart = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_16),
+                paddingEnd = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_4),
+                paddingBottom = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_1)
             )
         )
         is SPStartViewType.SPImageViewType -> SPViewData.SPImageResourcesData(
             type.icon,
             params = SPViewData.SPViewDataParams(
-                paddingStart = context.resources.getDimensionPixelSize(R.dimen.dimen_p_16),
-                paddingEnd = context.resources.getDimensionPixelSize(R.dimen.dimen_p_16)
+                paddingStart = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_16),
+                paddingEnd = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_16)
             )
         )
 
@@ -175,7 +175,7 @@ fun SPTextFieldInput.setupStartViewByType(
 fun getSmallCardView(context: Context): SPViewData.SPrimaryChipData =
     getSmallChipData(
         context, SPViewData.SPViewDataParams(
-            paddingStart = context.resources.getDimensionPixelSize(R.dimen.dimen_p_12),
-            paddingEnd = context.resources.getDimensionPixelSize(R.dimen.dimen_p_12)
+            paddingStart = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_12),
+            paddingEnd = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_12)
         )
     )

@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:foreground="?android:selectableItemBackgroundBorderless"
-    android:layout_margin="@dimen/dimen_p_0"
+    android:layout_margin="@dimen/ui_dimen_p_0"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
     <com.google.android.material.radiobutton.MaterialRadioButton
         android:id="@+id/radioButton"
-        android:layout_width="@dimen/dimen_p_24"
-        android:layout_height="@dimen/dimen_p_24"
+        android:layout_width="@dimen/ui_dimen_p_24"
+        android:layout_height="@dimen/ui_dimen_p_24"
         android:layout_gravity="center"
         android:button="?selectableItemBackgroundBorderless"
         android:buttonTint="?attr/brand_primary"

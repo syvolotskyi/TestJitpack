@@ -20,7 +20,7 @@
                 android:id="@+id/simpleInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/dimen_p_16"
+                android:layout_margin="@dimen/ui_dimen_p_16"
                 android:hint="@string/enter_you_details_here"
                 android:imeOptions="actionNext"
                 app:descriptionText="Description"
@@ -105,7 +105,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/dimen_p_16"
+                        android:layout_marginStart="@dimen/ui_dimen_p_16"
                         android:layout_marginTop="10dp"
                         android:text="Type Of Input:" />
 

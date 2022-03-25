@@ -20,8 +20,8 @@ object SPTextFieldsDropdownItems {
             "Primary chip",
             SPDefaultPrimaryChipData.getSmallChipData(
                 context, params = SPViewData.SPViewDataParams(
-                    paddingStart = context.resources.getDimensionPixelSize(R.dimen.dimen_p_12),
-                    paddingEnd = context.resources.getDimensionPixelSize(R.dimen.dimen_p_12)
+                    paddingStart = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_12),
+                    paddingEnd = context.resources.getDimensionPixelSize(R.dimen.ui_dimen_p_12)
                 )
             )
         )

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="@dimen/dimen_p_16">
+    android:padding="@dimen/ui_dimen_p_16">
 
     <ge.space.ui.components.text_fields.input.base.SPTextFieldInput
         android:id="@+id/tfNumber"
@@ -25,7 +25,7 @@
         style="@style/SPTextField.AmountDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dimen_p_32"
+        android:layout_marginTop="@dimen/ui_dimen_p_32"
         android:hint="Enter Amount"
         app:descriptionText="@string/description"
         app:endView="currency"

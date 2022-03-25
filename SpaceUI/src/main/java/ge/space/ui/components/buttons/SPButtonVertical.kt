@@ -68,7 +68,7 @@ open class SPButtonVertical @JvmOverloads constructor(
             handleDistractiveState()
         }
 
-    private var iconPadding = resources.getDimensionPixelSize(R.dimen.dimen_p_15)
+    private var iconPadding = resources.getDimensionPixelSize(R.dimen.ui_dimen_p_15)
         set(value) {
             field = value
 

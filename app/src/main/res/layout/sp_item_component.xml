@@ -4,14 +4,14 @@
     android:layout_height="wrap_content"
     style="@style/List.ItemView"
     android:id="@+id/parent"
-    android:paddingVertical="@dimen/dimen_p_8"
+    android:paddingVertical="@dimen/ui_dimen_p_8"
     android:paddingStart="?attr/listPreferredItemPaddingStart"
     android:paddingEnd="?attr/listPreferredItemPaddingEnd">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginVertical="@dimen/dimen_p_10"
+        android:layout_marginVertical="@dimen/ui_dimen_p_10"
         android:orientation="vertical">
 
         <TextView

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="SPView.CircleShape" parent="SPBaseView">
-        <item name="shadowOffsetY">@dimen/dimen_p_8</item>
+        <item name="shadowOffsetY">@dimen/ui_dimen_p_8</item>
         <item name="isCircle">true</item>
     </style>
 </resources>
