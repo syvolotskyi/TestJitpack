@@ -35,12 +35,12 @@
         <item name="shadowOffsetY">@dimen/ui_dimen_p_1</item>
         <item name="shadowColor">?attr/brand_primary</item>
         <item name="shadowAlpha">12%</item>
-        <item name="shadowRadius">@dimen/dimen_p_2</item>
+        <item name="shadowRadius">@dimen/ui_dimen_p_2</item>
     </style>
 
     <style name="shadow_300_primary" parent="SPBaseView">
         <item name="shadowOffsetX">0dp</item>
-        <item name="shadowOffsetY">@dimen/dimen_p_2</item>
+        <item name="shadowOffsetY">@dimen/ui_dimen_p_2</item>
         <item name="shadowColor">?attr/static_black</item>
         <item name="shadowAlpha">12%</item>
         <item name="shadowRadius">@dimen/ui_dimen_p_4</item>
@@ -48,7 +48,7 @@
 
     <style name="shadow_300_brand" parent="SPBaseView">
         <item name="shadowOffsetX">0dp</item>
-        <item name="shadowOffsetY">@dimen/dimen_p_2</item>
+        <item name="shadowOffsetY">@dimen/ui_dimen_p_2</item>
         <item name="shadowColor">?attr/brand_primary</item>
         <item name="shadowAlpha">12%</item>
         <item name="shadowRadius">@dimen/ui_dimen_p_4</item>
