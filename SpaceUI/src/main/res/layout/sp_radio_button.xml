@@ -11,8 +11,8 @@
 
     <com.google.android.material.radiobutton.MaterialRadioButton
         android:id="@+id/radioButton"
-        android:layout_width="@dimen/dimen_p_24"
-        android:layout_height="@dimen/dimen_p_24"
+        android:layout_width="@dimen/ui_dimen_p_24"
+        android:layout_height="@dimen/ui_dimen_p_24"
         android:layout_gravity="center"
         android:background="@null"
         android:foreground="@null"
