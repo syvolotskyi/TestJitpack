@@ -27,7 +27,7 @@
         <item name="shadowOffsetY">@dimen/ui_dimen_p_1</item>
         <item name="shadowColor">?attr/static_black</item>
         <item name="shadowAlpha">12%</item>
-        <item name="shadowRadius">@dimen/dimen_p_2</item>
+        <item name="shadowRadius">@dimen/ui_dimen_p_2</item>
     </style>
 
     <style name="shadow_200_brand" parent="SPBaseView">
