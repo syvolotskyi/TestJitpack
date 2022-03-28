@@ -3,9 +3,9 @@
     android:dither="true"
     android:shape="rectangle"
     android:useLevel="false">
-    <corners android:radius="@dimen/dimen_p_64" />
+    <corners android:radius="@dimen/ui_dimen_p_64" />
     <size
-        android:width="@dimen/dimen_p_40"
-        android:height="@dimen/dimen_p_24" />
+        android:width="@dimen/ui_dimen_p_40"
+        android:height="@dimen/ui_dimen_p_24" />
     <solid android:color="?attr/brand_primary" />
 </shape>

@@ -5,11 +5,11 @@
     <solid android:color="?attr/greyscale_gray_4" />
 
     <stroke
-        android:width="@dimen/dimen_p_6"
+        android:width="@dimen/ui_dimen_p_6"
         android:color="@android:color/transparent" />
 
     <size
-        android:width="@dimen/dimen_p_24"
-        android:height="@dimen/dimen_p_24" />
+        android:width="@dimen/ui_dimen_p_24"
+        android:height="@dimen/ui_dimen_p_24" />
 
 </shape>
