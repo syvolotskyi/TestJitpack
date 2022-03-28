@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/sp_text_field_height"
     android:background="@null"
-    android:textSize="@dimen/dimen_sp_16"
+    android:textSize="@dimen/ui_dimen_sp_16"
     android:gravity="start|center_vertical"
     android:digits="1234567890+ /X"
     tools:mask="### ### ###"
