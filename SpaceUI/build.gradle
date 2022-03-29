@@ -4,7 +4,7 @@ group = "com.github.syvolotskyi"
 
 configPlugin {
     config {
-        flavors = [new MarketFlavor(), new CountryFlavor()]
+        flavors = [ new CountryFlavor()]
         buildTypes = [BuildTypes.PRODUCTION]
     }
 }

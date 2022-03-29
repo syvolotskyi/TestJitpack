@@ -7,7 +7,7 @@ plugins {
 
 configPlugin {
     config {
-        flavors = [new MarketFlavor(), new CountryFlavor()]
+        flavors = [new CountryFlavor()]
         buildTypes = [BuildTypes.DEBUG, BuildTypes.PRODUCTION]
     }
 }
