@@ -4,8 +4,22 @@ group = "com.github.syvolotskyi"
 
 configPlugin {
     config {
-        flavors = [ new CountryFlavor()]
+        flavors = [new CountryFlavor()]
         buildTypes = [BuildTypes.PRODUCTION]
+    }
+}
+
+android {
+    flavorDimensions "country"
+
+
+productFlavors {
+    "$CountryFlavor.GEORGIA" {
+            dimension = "country"
+        }
+    "$CountryFlavor.UZBEKISTAN" {
+            dimension = "country"
+        }
     }
 }
 

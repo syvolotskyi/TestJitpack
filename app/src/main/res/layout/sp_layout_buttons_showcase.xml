@@ -27,6 +27,6 @@
         android:hint="Input button text"
         android:inputType="textVisiblePassword"
         android:padding="@dimen/ui_dimen_p_10"
-        android:textSize="@dimen/dimen_sp_16" />
+        android:textSize="@dimen/ui_dimen_sp_16" />
 
 </LinearLayout>
