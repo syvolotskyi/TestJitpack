@@ -1,17 +1,10 @@
-apply plugin: 'GradleConfigPlugin'
+
 apply plugin: 'com.github.dcendents.android-maven'
 group = "com.github.syvolotskyi"
 
-configPlugin {
-    config {
-        flavors = [new CountryFlavor()]
-        buildTypes = [BuildTypes.PRODUCTION]
-    }
-}
 
 android {
     flavorDimensions "country"
-
 
 productFlavors {
     "$CountryFlavor.GEORGIA" {
