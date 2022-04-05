@@ -1,8 +1,7 @@
 package com.space.formatter.format
 
-import com.space.models.model.amount.SPCurrencyType
 
-object SPDefaultFormatterFactory : SPFormatterFactory {
+object SPDefaultFormatterFactory : SPFormatterFactory<String> {
 
     override fun produceLabelAmountFormatter(grouping: Boolean): LongFormatter =
         SPLabelAmountFormatter(SPFractioningStrategies.TrimTrailingZeros)
@@ -23,8 +22,8 @@ object SPDefaultFormatterFactory : SPFormatterFactory {
 
     override fun getInputMaxIntDigits() = MAX_INTEGER_DIGITS
 
-    override val defaultCurrency: SPCurrencyType
-        get() = SPCurrencyType.UZS
+    override val defaultCurrency: String
+        get() = "SPCurrencyType.GEL"
 
     private const val MAX_FRACTION_DIGITS = 2
     private const val MAX_INTEGER_DIGITS = 10
