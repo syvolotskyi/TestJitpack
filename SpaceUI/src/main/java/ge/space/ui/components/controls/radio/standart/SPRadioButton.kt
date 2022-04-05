@@ -8,10 +8,6 @@ import android.widget.LinearLayout
 import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
 import androidx.core.content.withStyledAttributes
-import ge.space.extensions.EMPTY_TEXT
-import ge.space.extensions.setBackgroundTint
-import ge.space.extensions.setTextStyle
-import ge.space.extensions.visibleIf
 import ge.space.spaceui.R
 import ge.space.spaceui.databinding.SpRadioButtonBinding
 import ge.space.ui.base.SPBaseView
@@ -20,6 +16,9 @@ import ge.space.ui.base.SPViewStyling
 import ge.space.ui.components.controls.radio.base.SpBaseRadioButton
 import ge.space.ui.util.extension.getColorFromAttribute
 import ge.space.ui.util.extension.handleAttributeAction
+import ge.space.ui.util.extension.EMPTY_TEXT
+import ge.space.ui.util.extension.setTextStyle
+import ge.space.ui.util.extension.visibleIf
 
 /**
  *  Extended view from [SpBaseRadioButton] contains radio button and description label.
