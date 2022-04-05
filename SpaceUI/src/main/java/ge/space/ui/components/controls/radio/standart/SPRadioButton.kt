@@ -61,9 +61,6 @@ class SPRadioButton @JvmOverloads constructor(
             field = value
 
             value?.let { binding.radioButton.setButtonDrawable(it) }
-            binding.radioButton.setBackgroundTint(
-                context.getColorFromAttribute(R.attr.brand_primary),
-            )
         }
 
     private val binding =
