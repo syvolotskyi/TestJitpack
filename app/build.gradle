@@ -1,43 +1,48 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'GradleConfigPlugin'
-}
-
-
-configPlugin {
-    config {
-        flavors = [new CountryFlavor()]
-        buildTypes = [BuildTypes.DEBUG, BuildTypes.PRODUCTION]
-    }
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
 }
 
 android {
 
-    compileSdkVersion 30
+    compileSdkVersion 29
     buildToolsVersion "30.0.2"
 
     defaultConfig {
         applicationId "ge.space.design"
-        minSdkVersion 22
-        targetSdkVersion 30
+        minSdkVersion 21
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         resConfigs('xxxhdpi')
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
-        "$BuildTypes.PRODUCTION" {
+        release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        "$BuildTypes.DEBUG" {
-            applicationIdSuffix ".debug"
-            debuggable true
+    }
+    flavorDimensions "country"
+    productFlavors {
+        "georgia" {
+            dimension 'country'
+            applicationId 'ge.space.design.georgia'
+            matchingFallbacks ["georgia"]
+
+        }
+
+        "uzbekistan" {
+            dimension 'country'
+            applicationId 'ge.space.design.uzbekistan'
+            matchingFallbacks ["uzbekistan"]
         }
     }
 
+    buildFeatures {
+        viewBinding true
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -47,44 +52,13 @@ android {
         jvmTarget = '1.8'
     }
 
-    signingConfigs {
-        georgia {
-            storeFile file('../keystores/georgian/georgian_jks.jks')
-            storePassword 'Space1234%'
-            keyPassword 'Space1234%'
-            keyAlias 'SPACEGEO'
-        }
-        uzbekistan {
-            storeFile file('../keystores/uzbekistan/uzbekistan_jks.jks')
-            storePassword 'Space1234%'
-            keyPassword 'Space1234%'
-            keyAlias 'SPACEUZB'
-        }
-    }
 
-    productFlavors {
-        "$CountryFlavor.GEORGIA" {
-            dimension 'country'
-            applicationId 'ge.space.design.georgia'
-            signingConfig signingConfigs.georgia
-
-        }
-
-        "$CountryFlavor.UZBEKISTAN" {
-            dimension 'country'
-            applicationId 'ge.space.design.uzbekistan'
-            signingConfig signingConfigs.uzbekistan
-        }
-    }
-
-    buildFeatures {
-        viewBinding true
-    }
 
 }
 
 
 dependencies {
+    api Libraries.ktxCore
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.5.0'
     implementation 'androidx.appcompat:appcompat:1.3.0'
