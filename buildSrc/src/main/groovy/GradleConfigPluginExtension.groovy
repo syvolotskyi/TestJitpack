@@ -42,7 +42,6 @@ class GradleConfigPluginExtension {
     void populateFlavors(FlavorConfig flavorConfig) {
         project.android {
             // add provided flavor to the dimension list
-            publishNonDefault true
             flavorDimensionList.add(flavorConfig.dimension)
             productFlavors {
                 flavorConfig.getNames().each { name ->
