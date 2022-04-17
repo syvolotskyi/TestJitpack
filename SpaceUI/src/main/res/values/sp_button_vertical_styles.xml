@@ -7,7 +7,7 @@
 
     <style name="SPButton.Vertical_Size40" parent="shadow_empty">
         <item name="backgroundColor">@android:color/transparent</item>
-        <item name="distractiveColor">?attr/accent_magenta</item>
+        <item name="distractiveColor">?attr/accent_magenta_ui</item>
         <item name="buttonHeight">@dimen/ui_dimen_p_16</item>
         <item name="btnIconPadding">@dimen/ui_dimen_p_12</item>
         <item name="android:textAppearance">@style/h700_medium_caps_label_primary</item>
