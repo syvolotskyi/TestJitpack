@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="BaseTheme.Core" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="BaseThemeUI.Core" parent="Theme.MaterialComponents.Light.NoActionBar">
         //brand
         <item name="brand_primary">@color/light_brand_primary</item>
         <item name="brand_secondary">@color/light_brand_secondary</item>
@@ -44,7 +44,7 @@
         <item name="fill_quaternary">@color/light_fill_quaternary</item>
     </style>
 
-    <style name="BaseTheme" parent="BaseTheme.Core">
+    <style name="BaseThemeUI" parent="BaseThemeUI.Core">
         <item name="static_white">@color/static_primary_white</item>
         <item name="static_black">@color/static_primary_black</item>
         <item name="static_blue">@color/static_secondary_blue</item>
@@ -63,13 +63,13 @@
         <item name="static_tomato">@color/static_secondary_tomato</item>
     </style>
 
-    <style name="SPCoreTheme" parent="BaseTheme">
+    <style name="SPCoreThemeUI" parent="BaseThemeUI">
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">?attr/static_black</item>
         <item name="android:windowAllowEnterTransitionOverlap">true</item>
     </style>
 
-    <style name="AppTheme" parent="SPCoreTheme">
+    <style name="AppThemeUI" parent="SPCoreThemeUI">
         <item name="colorPrimary">?attr/static_black</item>
         <item name="colorPrimaryDark">?attr/static_black</item>
         <item name="colorAccent">?attr/brand_primary</item>
@@ -88,7 +88,7 @@
         <item name="spToggleIconStyle">@style/SPToggleIcon.Standard</item>
     </style>
 
-    <style name="AppThemeDark" parent="AppTheme">
+    <style name="AppThemeDarkUI" parent="AppThemeUI">
         <item name="colorPrimary">?attr/static_black</item>
         <item name="colorPrimaryDark">?attr/static_black</item>
         <item name="colorAccent">?attr/brand_primary</item>
@@ -150,7 +150,7 @@
     </style>
 
 
-    <style name="AppThemeWhite" parent="AppTheme">
+    <style name="AppThemeWhiteUI" parent="AppThemeUI">
         <item name="colorPrimary">?attr/static_white</item>
         <item name="colorPrimaryDark">?attr/brand_primary</item>
         <item name="colorAccent">?attr/brand_primary</item>

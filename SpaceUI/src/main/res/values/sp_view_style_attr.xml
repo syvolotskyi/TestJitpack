@@ -49,7 +49,7 @@
         <attr name="borderWidth" />
     </declare-styleable>
 
-    <declare-styleable name="SPBaseView">
+    <declare-styleable name="SPBaseViewUI">
         <attr name="style" />
     </declare-styleable>
 
