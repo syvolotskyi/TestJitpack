@@ -21,7 +21,7 @@ class SPRadioButtonStandartComponent : ShowCaseComponent {
                 environment.requireLayoutInflater()
             )
 
-            layoutBinding.radioGroup.setOnCheckedChangeListener { radioGroup, id ->
+            layoutBinding.radioGroup.setOnCheckedChangeListener { _, id ->
                 when(id){
                     layoutBinding.radio1.id -> {
                         Toast.makeText(environment.context, "Press 1", Toast.LENGTH_SHORT).show()
