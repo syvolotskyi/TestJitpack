@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="ui_backgroundColor" format="color|reference" />
+    <attr name="backgroundColor" format="color|reference" />
     <attr name="shadowAlpha" format="fraction" />
     <attr name="shadowColor" format="color|reference" />
     <attr name="shadowRadius" format="dimension|reference" />
@@ -25,6 +25,8 @@
     <attr name="descriptionTextAppearance" format="reference" />
     <attr name="pinLabelText" format="string|reference" />
     <attr name="pinDescriptionText" format="string|reference" />
+    <attr name="shimmer_background" format="color|reference"/>
+    <attr name="shimmer_text_background" format="color|reference"/>
 
     <attr name="directionIcon" format="enum">
         <enum name="none" value="0" />
@@ -33,7 +35,7 @@
     </attr>
 
     <declare-styleable name="sp_view_style">
-        <attr name="ui_backgroundColor" />
+        <attr name="backgroundColor" />
         <attr name="shadowAlpha" />
         <attr name="shadowColor" />
         <attr name="shadowRadius" />

@@ -90,8 +90,7 @@
         <item name="spToggleIconStyle">@style/SPToggleIcon.Standard</item>
     </style>
 
-
-    <style name="AppThemeDarkUI" parent="AppTheme">
+    <style name="AppThemeDark" parent="AppTheme">
         <item name="colorPrimary">?attr/static_black_ui</item>
         <item name="colorPrimaryDark">?attr/static_black_ui</item>
         <item name="colorAccent">?attr/brand_primary_ui</item>
@@ -104,6 +103,9 @@
         <item name="themeLoadingBackgroundColor">@color/loading_transparent_black_ui</item>
         <item name="themeMistColorLight">?attr/static_white_ui</item>
         <item name="themeMistColorDark">?attr/static_black_ui</item>
+
+        <item name="shimmer_background">?attr/background_secondary_ui</item>
+        <item name="shimmer_text_background">?attr/static_white_ui</item>
 
         //brand
         <item name="brand_primary_ui">@color/dark_brand_primary_ui</item>
@@ -152,14 +154,14 @@
         <item name="android:checkboxStyle">@style/SPCheckbox.DefaultStyle</item>
     </style>
 
-
-    <style name="AppThemeWhiteUI" parent="AppTheme">
+    <style name="AppThemeWhite" parent="AppTheme">
         <item name="colorPrimary">?attr/static_white_ui</item>
         <item name="colorPrimaryDark">?attr/brand_primary_ui</item>
         <item name="colorAccent">?attr/brand_primary_ui</item>
         <item name="android:windowBackground">?attr/static_white_ui</item>
 
         <item name="cardBackground">?attr/static_white_ui</item>
+        <item name="cardBackgroundShadow">@drawable/card_background</item>
         <item name="cardTitleBackground">?attr/static_white_ui</item>
         <item name="cardTitleBackgroundLineHeight">0.5dp</item>
         <item name="themeMySpaceBackgroundColor">?attr/static_white_ui</item>
@@ -167,6 +169,9 @@
         <item name="themeLoadingBackgroundColor">@color/loading_transparent_black_half_ui</item>
         <item name="themeMistColorLight">?attr/static_white_ui</item>
         <item name="themeMistColorDark">?attr/static_white_ui</item>
+
+        <item name="shimmer_background">?attr/background_secondary_ui</item>
+        <item name="shimmer_text_background">?attr/static_white_ui</item>
 
         //brand
         <item name="brand_primary_ui">@color/light_brand_primary_ui</item>
