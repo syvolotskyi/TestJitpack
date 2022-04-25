@@ -74,6 +74,8 @@
         <item name="colorPrimary">?attr/brand_primary_ui</item>
         <item name="colorPrimaryDark">?attr/static_black_ui</item>
         <item name="colorAccent">?attr/brand_primary_ui</item>
+        <item name="cardBackground">?attr/static_black_ui</item>
+        <item name="cardTitleBackground">?attr/greyscale_gray_6_ui</item>
         <item name="android:windowBackground">?attr/static_black_ui</item>
         <item name="android:windowEnableSplitTouch">false</item>
         <item name="android:splitMotionEvents">false</item>
