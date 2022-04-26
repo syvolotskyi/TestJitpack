@@ -46,20 +46,20 @@
     <attr name="fill_quaternary_ui" format="color"/>
 
     //static
-    <attr name="static_white_ui" format="color"/>
-    <attr name="static_black_ui" format="color"/>
-    <attr name="static_blue_ui" format="color"/>
-    <attr name="static_teal_ui" format="color"/>
-    <attr name="static_pink_ui" format="color"/>
-    <attr name="static_plum_ui" format="color"/>
-    <attr name="static_jade_ui" format="color"/>
-    <attr name="static_purple_ui" format="color"/>
-    <attr name="static_maroon_ui" format="color"/>
-    <attr name="static_green_ui" format="color"/>
-    <attr name="static_slate_ui" format="color"/>
-    <attr name="static_grey_ui" format="color"/>
-    <attr name="static_lead_ui" format="color"/>
-    <attr name="static_barry_ui" format="color"/>
-    <attr name="static_spruce_ui" format="color"/>
-    <attr name="static_tomato_ui" format="color"/>
+    <attr name="static_white" format="color"/>
+    <attr name="static_black" format="color"/>
+    <attr name="static_blue" format="color"/>
+    <attr name="static_teal" format="color"/>
+    <attr name="static_pink" format="color"/>
+    <attr name="static_plum" format="color"/>
+    <attr name="static_jade" format="color"/>
+    <attr name="static_purple" format="color"/>
+    <attr name="static_maroon" format="color"/>
+    <attr name="static_green" format="color"/>
+    <attr name="static_slate" format="color"/>
+    <attr name="static_grey" format="color"/>
+    <attr name="static_lead" format="color"/>
+    <attr name="static_barry" format="color"/>
+    <attr name="static_spruce" format="color"/>
+    <attr name="static_tomato" format="color"/>
 </resources>

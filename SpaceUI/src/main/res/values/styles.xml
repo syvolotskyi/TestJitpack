@@ -45,38 +45,38 @@
     </style>
 
     <style name="BaseTheme" parent="BaseTheme.Core">
-        <item name="static_white_ui">@color/static_primary_white</item>
-        <item name="static_black_ui">@color/static_primary_black</item>
-        <item name="static_blue_ui">@color/static_secondary_blue</item>
-        <item name="static_teal_ui">@color/static_secondary_teal</item>
-        <item name="static_pink_ui">@color/static_secondary_pink</item>
-        <item name="static_plum_ui">@color/static_secondary_plum</item>
-        <item name="static_jade_ui">@color/static_secondary_jade</item>
-        <item name="static_purple_ui">@color/static_secondary_purple</item>
-        <item name="static_maroon_ui">@color/static_secondary_maroon</item>
-        <item name="static_green_ui">@color/static_secondary_green</item>
-        <item name="static_slate_ui">@color/static_secondary_slate</item>
-        <item name="static_grey_ui">@color/static_secondary_green</item>
-        <item name="static_lead_ui">@color/static_secondary_lead</item>
-        <item name="static_barry_ui">@color/static_secondary_secondary_barry</item>
-        <item name="static_spruce_ui">@color/static_secondary_spruce</item>
-        <item name="static_tomato_ui">@color/static_secondary_tomato</item>
+        <item name="static_white">@color/static_primary_white</item>
+        <item name="static_black">@color/static_primary_black</item>
+        <item name="static_blue">@color/static_secondary_blue</item>
+        <item name="static_teal">@color/static_secondary_teal</item>
+        <item name="static_pink">@color/static_secondary_pink</item>
+        <item name="static_plum">@color/static_secondary_plum</item>
+        <item name="static_jade">@color/static_secondary_jade</item>
+        <item name="static_purple">@color/static_secondary_purple</item>
+        <item name="static_maroon">@color/static_secondary_maroon</item>
+        <item name="static_green">@color/static_secondary_green</item>
+        <item name="static_slate">@color/static_secondary_slate</item>
+        <item name="static_grey">@color/static_secondary_green</item>
+        <item name="static_lead">@color/static_secondary_lead</item>
+        <item name="static_barry">@color/static_secondary_secondary_barry</item>
+        <item name="static_spruce">@color/static_secondary_spruce</item>
+        <item name="static_tomato">@color/static_secondary_tomato</item>
     </style>
 
     <style name="SPCoreTheme" parent="BaseTheme">
         <!-- Customize your theme here. -->
-        <item name="android:windowBackground">?attr/static_black_ui</item>
+        <item name="android:windowBackground">?attr/static_black</item>
         <item name="android:windowAllowEnterTransitionOverlap">true</item>
     </style>
 
 
     <style name="AppTheme" parent="SPCoreTheme">
         <item name="colorPrimary">?attr/brand_primary_ui</item>
-        <item name="colorPrimaryDark">?attr/static_black_ui</item>
+        <item name="colorPrimaryDark">?attr/static_black</item>
         <item name="colorAccent">?attr/brand_primary_ui</item>
-        <item name="cardBackground">?attr/static_black_ui</item>
+        <item name="cardBackground">?attr/static_black</item>
         <item name="cardTitleBackground">?attr/greyscale_gray_6_ui</item>
-        <item name="android:windowBackground">?attr/static_black_ui</item>
+        <item name="android:windowBackground">?attr/static_black</item>
         <item name="android:windowEnableSplitTouch">false</item>
         <item name="android:splitMotionEvents">false</item>
         <item name="android:windowEnterTransition">@transition/fade</item>
@@ -93,21 +93,21 @@
     </style>
 
     <style name="AppThemeDark" parent="AppTheme">
-        <item name="colorPrimary">?attr/static_black_ui</item>
-        <item name="colorPrimaryDark">?attr/static_black_ui</item>
+        <item name="colorPrimary">?attr/static_black</item>
+        <item name="colorPrimaryDark">?attr/static_black</item>
         <item name="colorAccent">?attr/brand_primary_ui</item>
-        <item name="android:windowBackground">?attr/static_black_ui</item>
-        <item name="cardBackground">?attr/static_black_ui</item>
+        <item name="android:windowBackground">?attr/static_black</item>
+        <item name="cardBackground">?attr/static_black</item>
         <item name="cardTitleBackground">?attr/greyscale_gray_6_ui</item>
         <item name="cardTitleBackgroundLineHeight">0dp</item>
-        <item name="themeMySpaceBackgroundColor">?attr/static_black_ui</item>
+        <item name="themeMySpaceBackgroundColor">?attr/static_black</item>
         <item name="themeMySpaceTitleColor">@android:color/transparent</item>
         <item name="themeLoadingBackgroundColor">@color/loading_transparent_black_ui</item>
-        <item name="themeMistColorLight">?attr/static_white_ui</item>
-        <item name="themeMistColorDark">?attr/static_black_ui</item>
+        <item name="themeMistColorLight">?attr/static_white</item>
+        <item name="themeMistColorDark">?attr/static_black</item>
 
         <item name="shimmer_background">?attr/background_secondary_ui</item>
-        <item name="shimmer_text_background">?attr/static_white_ui</item>
+        <item name="shimmer_text_background">?attr/static_white</item>
 
         //brand
         <item name="brand_primary_ui">@color/dark_brand_primary_ui</item>
@@ -150,30 +150,30 @@
         <item name="background_secondary_ui">@color/dark_background_secondary_ui</item>
         <item name="background_tertiary_ui">@color/dark_background_tertiary_ui</item>
 
-        <item name="themeTextColor_ui">?attr/static_white_ui</item>
-        <item name="themeCheckBoxButtonTint_ui">?attr/static_white_ui</item>
+        <item name="themeTextColor_ui">?attr/static_white</item>
+        <item name="themeCheckBoxButtonTint_ui">?attr/static_white</item>
 
         <item name="android:checkboxStyle">@style/SPCheckbox.DefaultStyle</item>
     </style>
 
     <style name="AppThemeWhite" parent="AppTheme">
-        <item name="colorPrimary">?attr/static_white_ui</item>
+        <item name="colorPrimary">?attr/static_white</item>
         <item name="colorPrimaryDark">?attr/brand_primary_ui</item>
         <item name="colorAccent">?attr/brand_primary_ui</item>
-        <item name="android:windowBackground">?attr/static_white_ui</item>
+        <item name="android:windowBackground">?attr/static_white</item>
 
-        <item name="cardBackground">?attr/static_white_ui</item>
+        <item name="cardBackground">?attr/static_white</item>
         <item name="cardBackgroundShadow">@drawable/card_background</item>
-        <item name="cardTitleBackground">?attr/static_white_ui</item>
+        <item name="cardTitleBackground">?attr/static_white</item>
         <item name="cardTitleBackgroundLineHeight">0.5dp</item>
-        <item name="themeMySpaceBackgroundColor">?attr/static_white_ui</item>
-        <item name="themeMySpaceTitleColor">?attr/static_white_ui</item>
+        <item name="themeMySpaceBackgroundColor">?attr/static_white</item>
+        <item name="themeMySpaceTitleColor">?attr/static_white</item>
         <item name="themeLoadingBackgroundColor">@color/loading_transparent_black_half_ui</item>
-        <item name="themeMistColorLight">?attr/static_white_ui</item>
-        <item name="themeMistColorDark">?attr/static_white_ui</item>
+        <item name="themeMistColorLight">?attr/static_white</item>
+        <item name="themeMistColorDark">?attr/static_white</item>
 
         <item name="shimmer_background">?attr/background_secondary_ui</item>
-        <item name="shimmer_text_background">?attr/static_white_ui</item>
+        <item name="shimmer_text_background">?attr/static_white</item>
 
         //brand
         <item name="brand_primary_ui">@color/light_brand_primary_ui</item>
@@ -216,8 +216,8 @@
         <item name="fill_tertiary_ui">@color/light_fill_tertiary_ui</item>
         <item name="fill_quaternary_ui">@color/light_fill_quaternary_ui</item>
 
-        <item name="themeTextColor_ui">?attr/static_black_ui</item>
-        <item name="themeCheckBoxButtonTint_ui">?attr/static_black_ui</item>
+        <item name="themeTextColor_ui">?attr/static_black</item>
+        <item name="themeCheckBoxButtonTint_ui">?attr/static_black</item>
 
         <item name="android:checkboxStyle">@style/SPCheckbox.DefaultStyle</item>
     </style>

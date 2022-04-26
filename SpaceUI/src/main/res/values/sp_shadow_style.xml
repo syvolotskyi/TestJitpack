@@ -4,7 +4,7 @@
     <style name="shadow_100_primary" parent="SPBaseViewUI">
         <item name="shadowOffsetX">@dimen/ui_dimen_p_1</item>
         <item name="shadowOffsetY">@dimen/ui_dimen_p_1</item>
-        <item name="shadowColor">?attr/static_black_ui</item>
+        <item name="shadowColor">?attr/static_black</item>
         <item name="shadowAlpha">12%</item>
         <item name="shadowRadius">@dimen/ui_dimen_p_1</item>
     </style>
@@ -25,7 +25,7 @@
     <style name="shadow_200_primary" parent="SPBaseViewUI">
         <item name="shadowOffsetX">0dp</item>
         <item name="shadowOffsetY">@dimen/ui_dimen_p_1</item>
-        <item name="shadowColor">?attr/static_black_ui</item>
+        <item name="shadowColor">?attr/static_black</item>
         <item name="shadowAlpha">12%</item>
         <item name="shadowRadius">@dimen/ui_dimen_p_2</item>
     </style>
@@ -41,7 +41,7 @@
     <style name="shadow_300_primary" parent="SPBaseViewUI">
         <item name="shadowOffsetX">0dp</item>
         <item name="shadowOffsetY">@dimen/ui_dimen_p_2</item>
-        <item name="shadowColor">?attr/static_black_ui</item>
+        <item name="shadowColor">?attr/static_black</item>
         <item name="shadowAlpha">12%</item>
         <item name="shadowRadius">@dimen/ui_dimen_p_4</item>
     </style>
@@ -57,7 +57,7 @@
     <style name="shadow_400_primary" parent="SPBaseViewUI">
         <item name="shadowOffsetX">0dp</item>
         <item name="shadowOffsetY">@dimen/ui_dimen_p_4</item>
-        <item name="shadowColor">?attr/static_black_ui</item>
+        <item name="shadowColor">?attr/static_black</item>
         <item name="shadowAlpha">12%</item>
         <item name="shadowRadius">@dimen/ui_dimen_p_8</item>
     </style>
@@ -73,7 +73,7 @@
     <style name="shadow_500_primary" parent="SPBaseViewUI">
         <item name="shadowOffsetX">0dp</item>
         <item name="shadowOffsetY">@dimen/ui_dimen_p_4</item>
-        <item name="shadowColor">?attr/static_black_ui</item>
+        <item name="shadowColor">?attr/static_black</item>
         <item name="shadowAlpha">12%</item>
         <item name="shadowRadius">@dimen/ui_dimen_p_12</item>
     </style>
