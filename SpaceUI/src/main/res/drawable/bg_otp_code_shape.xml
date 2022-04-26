@@ -2,7 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_active="true">
         <shape>
-            <stroke android:width="@dimen/ui_dimen_p_1" android:color="?attr/accent_magenta" />
+            <stroke android:width="@dimen/ui_dimen_p_1" android:color="?attr/accent_magenta_ui" />
             <solid android:color="?attr/static_white" />
             <corners android:radius="@dimen/ui_dimen_p_10" />
         </shape>
@@ -18,7 +18,7 @@
     <item android:state_enabled="true">
         <shape>
             <stroke android:width="@dimen/ui_dimen_p_1"
-                android:color="?attr/brand_primary" />
+                android:color="?attr/brand_primary_ui" />
             <solid android:color="?attr/static_white" />
             <corners android:radius="@dimen/ui_dimen_p_10" />
         </shape>

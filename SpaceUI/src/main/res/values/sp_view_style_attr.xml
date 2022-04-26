@@ -25,6 +25,8 @@
     <attr name="descriptionTextAppearance" format="reference" />
     <attr name="pinLabelText" format="string|reference" />
     <attr name="pinDescriptionText" format="string|reference" />
+    <attr name="shimmer_background" format="color|reference"/>
+    <attr name="shimmer_text_background" format="color|reference"/>
 
     <attr name="directionIcon" format="enum">
         <enum name="none" value="0" />
@@ -49,7 +51,7 @@
         <attr name="borderWidth" />
     </declare-styleable>
 
-    <declare-styleable name="SPBaseView">
+    <declare-styleable name="SPBaseViewUI">
         <attr name="style" />
     </declare-styleable>
 

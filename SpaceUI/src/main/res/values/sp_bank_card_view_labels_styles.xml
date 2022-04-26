@@ -6,18 +6,18 @@
     </style>
 
     <style name="h700_bold_caps_bank_card_amount" parent="@style/h700_bold_caps">
-        <item name="android:textColor">?attr/accent_green</item>
+        <item name="android:textColor">?attr/accent_green_ui</item>
         <item name="android:includeFontPadding">false</item>
     </style>
 
     <style name="h700_bold_card_bank_name" parent="@style/h700_bold">
-        <item name="android:textColor">?attr/greyscale_gray_1</item>
+        <item name="android:textColor">?attr/greyscale_gray_1_ui</item>
         <item name="android:maxLines">2</item>
         <item name="android:includeFontPadding">false</item>
     </style>
 
     <style name="h900_medium_card_bank_type" parent="@style/h900_medium">
-        <item name="android:textColor">?attr/greyscale_gray_1</item>
+        <item name="android:textColor">?attr/greyscale_gray_1_ui</item>
         <item name="android:includeFontPadding">false</item>
     </style>
 
@@ -26,7 +26,7 @@
     </style>
 
     <style name="h900_medium_bank_card_balance" parent="@style/h900_medium">
-        <item name="android:textColor">?attr/greyscale_gray_1</item>
+        <item name="android:textColor">?attr/greyscale_gray_1_ui</item>
         <item name="android:includeFontPadding">false</item>
     </style>
 
