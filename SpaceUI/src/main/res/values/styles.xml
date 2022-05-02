@@ -104,6 +104,8 @@
         <item name="themeLoadingBackgroundColor">@color/loading_transparent_black_ui</item>
         <item name="themeMistColorLight">?attr/static_white_ui</item>
         <item name="themeMistColorDark">?attr/static_black_ui</item>
+        <item name="shimmer_background">?attr/static_white_ui</item>
+        <item name="shimmer_text_background">@color/light_greyscale_gray_6_ui</item>
 
         //brand
         <item name="brand_primary_ui">@color/dark_brand_primary_ui</item>
@@ -166,7 +168,8 @@
         <item name="themeLoadingBackgroundColor">@color/loading_transparent_black_half_ui</item>
         <item name="themeMistColorLight">?attr/static_white_ui</item>
         <item name="themeMistColorDark">?attr/static_white_ui</item>
-
+        <item name="shimmer_background">@color/light_greyscale_gray_6_ui</item>
+        <item name="shimmer_text_background">?attr/static_white_ui</item>
         //brand
         <item name="brand_primary_ui">@color/light_brand_primary_ui</item>
         <item name="brand_secondary_ui">@color/light_brand_secondary_ui</item>
